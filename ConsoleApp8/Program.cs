@@ -10,10 +10,6 @@ namespace aaa
 
             int[] arrayMoreThan500 = new int[99];
 
-            int[] arrayMod5 = new int[99];
-
-            int[] arrayEven = new int[99];
-
             displayArray(hello);
 
             int a = 0; int b = 0; int c = 0;
@@ -35,12 +31,10 @@ namespace aaa
                 }
                 if (hello[i] % 5 == 0)
                 {
-                    arrayMod5[b] = hello[i];
                     b++;
                 }
                 if (hello[i] % 2 == 0)
                 {
-                    arrayEven[c] = hello[i];
                     c++;
                 }
 
